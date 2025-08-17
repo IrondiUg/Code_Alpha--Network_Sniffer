@@ -48,7 +48,7 @@ CodeAlpha-Network-Sniffer/
 ## 🚀 How to Run
 - Clone the repository
   ```
-  git clone https://github.com/IrondiUg/Code_Alpha--Network_Sniffer
+  git clone https://github.com/IrondiUg/Code_Alpha--Network_Sniffer.git
   cd Code_Alpha--Network_Sniffer
   ```
 - Install dependencies
@@ -70,3 +70,4 @@ Analyze headers, payloads, and protocols.
 Follow TCP/UDP streams for complete conversations.
 
 Apply filters like tcp, udp, icmp, or ip.addr==<your_ip>.
+
