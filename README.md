@@ -73,38 +73,39 @@ Apply filters like tcp, udp, icmp, or ip.addr==<your_ip>.
 
 
 ## 🎓 Learning Outcomes
-<div align="center">
-Core Concepts Mastered
-</div> <table> <tr> <td width="50%">
-🌐 Network Fundamentals
-
-Capturing and analyzing TCP/IP packets
-
-Understanding Ethernet frames and headers
-
-Inspecting ARP requests and responses
-
-Packet-level network layer analysis
-
-🔒 Security Principles
-
-Monitoring real-time network traffic
-
-Identifying suspicious or malformed packets
-
-Basic intrusion detection techniques
-
-Ethical traffic analysis and network auditing
-
-</td> <td width="50%">
-🛠️ Practical Skills
-
-Using Python libraries for packet sniffing (e.g., scapy, socket)
-
-Filtering and parsing network traffic by protocol
-
-Logging and analyzing packet data programmatically
-
-Designing tools for educational or security testing purposes
-
-</td> </tr> </table>
+  <div align="center">
+  Core Concepts Mastered
+  </div> <table> <tr> <td width="50%">
+  🌐 Network Fundamentals
+  
+  Capturing and analyzing TCP/IP packets
+  
+  Understanding Ethernet frames and headers
+  
+  Inspecting ARP requests and responses
+  
+  Packet-level network layer analysis
+  
+  🔒 Security Principles
+  
+  Monitoring real-time network traffic
+  
+  Identifying suspicious or malformed packets
+  
+  Basic intrusion detection techniques
+  
+  Ethical traffic analysis and network auditing
+  
+  </td> <td width="50%">
+  🛠️ Practical Skills
+  
+  Using Python libraries for packet sniffing (e.g., scapy, socket)
+  
+  Filtering and parsing network traffic by protocol
+  
+  Logging and analyzing packet data programmatically
+  
+  Designing tools for educational or security testing purposes
+  
+  </td> </tr> </table>
+  
