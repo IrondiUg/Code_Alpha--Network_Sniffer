@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Session CSVs and full packet captures
+sessions/
+Wireshark_format_captures/
+
+# IDE or OS files
+.vscode/
+.DS_Store
+Thumbs.db
