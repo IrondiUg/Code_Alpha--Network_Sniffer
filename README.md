@@ -9,7 +9,6 @@ It captures network traffic in real-time, separates TCP, UDP, and ICMP packets, 
 Additionally, full packet captures are saved in **Wireshark-compatible `.pcap` files** for deep inspection.
 
 ---
-
 ## ⚙ Features
 - Capture TCP, UDP, and ICMP packets.
 - Preview packet payloads in console (first 50 bytes as hex).
@@ -113,4 +112,5 @@ Apply filters like tcp, udp, icmp, or ip.addr==<your_ip>.
 </td>
 </tr>
 </table>
+
 
