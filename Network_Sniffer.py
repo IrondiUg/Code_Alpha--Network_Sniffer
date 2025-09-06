@@ -1,5 +1,5 @@
 # CodeAlpha Cybersecurity Internship Project
-# Enhanced Network Packet Sniffer
+# Enhanced Network Packet Sniffer using scapy
 from scapy.all import sniff, TCP, UDP, IP, ICMP
 from scapy.utils import wrpcap
 from colorama import init, Fore, Style
@@ -153,3 +153,4 @@ def main():
         print(f"Session data saved to: {filename}")
 if __name__ == "__main__":
     main()
+
