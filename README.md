@@ -1,5 +1,5 @@
 # CodeAlpha Cybersecurity Internship Project
-## Enhanced Network Packet Sniffer
+## Network Packet Sniffer Using Scapy
 
 ---
 
@@ -112,5 +112,6 @@ Apply filters like tcp, udp, icmp, or ip.addr==<your_ip>.
 </td>
 </tr>
 </table>
+
 
 
