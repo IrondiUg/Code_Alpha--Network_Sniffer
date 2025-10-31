@@ -1,5 +1,5 @@
 # CodeAlpha Cybersecurity Internship Project
-# Enhanced Network Packet Sniffer using scapy
+#   Network Packet Sniffer using scapy
 from scapy.all import sniff, TCP, UDP, IP, ICMP
 from scapy.utils import wrpcap
 from colorama import init, Fore, Style
@@ -135,22 +135,23 @@ def process_packet(packet):
         writer.writerow([timestamp, protocol, src_ip, src_port, dst_ip, dst_port, payload])
 
 def main():
-    print("📡 CodeAlpha Cybersecurity Internship Project")
-    print("🚀 Enhanced Network Packet Sniffer")
-    print("🚀 Sniffer started... Press Ctrl+C to stop.")
+    print("CodeAlpha Cybersecurity Internship Project")
+    print("Enhanced Network Packet Sniffer")
+    print("==Sniffer started... Press Ctrl+C to stop.==")
 
     try: 
         while True:
             # Capture 10 packets every 5 seconds
             sniff(count=10, prn=process_packet, filter="ip", store=False)
-            print("\n⏸ Waiting 5 seconds before next batch...\n")
+            print("\n== Waiting 5 seconds before next batch...==\n")
             time.sleep(5)
 
     except KeyboardInterrupt:
-        print("\n🛑 Sniffer stopped!.")
+        print("\n==Sniffer stopped!==.")
         wrpcap(pcap_filename, packets_list)
         print(f"Full packet capture saved to: {pcap_filename}")
         print(f"Session data saved to: {filename}")
 if __name__ == "__main__":
     main()
+
 
